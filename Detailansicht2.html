@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <script  src="script.js"></script>
+    <title>Detailansicht 2</title>
+
+</head>
+
+<nav>
+    <a href="index.html">MainPage</a>
+    <a href="Detailansicht1.html">Smart Meter 1</a>
+    <a href="Detailansicht2.html">Smart Meter 2</a>
+
+</nav>
+
+
+<body onload="randomizeStuff()">
+
+<span>
+<h1>Smart Meter 2</h1>
+
+<img src="SmartMeter2.jpg" alt="Hier könnte ihr Smart Meter stehen">
+
+
+    <ul>
+        <li>Gerätekennung: XY87654321</li>
+        <li>Maximale Belastung:<span id="max" >70</span> Ampere </li>
+        <li>Anliegende Spannung: <span id="spannung"> </span></li>
+        <li>Anliegende Stromstärke: <span id="stromstaerke"> </span> </li>
+            <form action="/action_page.php" id="myForm">
+                <li>Nutzerkennung:<input type="text" id="nutzerkennung"></li>
+                <li>Verbrauchswert(in kWh):<input type="text" name="verbrauchswert"></li>
+            </form>
+    </ul>
+
+    <button onclick="displayText()">Display</button></br>
+
+
+
+
+
+
+
+    <span id="output"></span>
+
+</span>
+
+
+</body>
+</html>
