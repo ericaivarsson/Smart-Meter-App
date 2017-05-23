@@ -11,10 +11,10 @@ function displayText() {
 
 
 function randomizeStuff(){
-    var spannung = document.getElementById("spannung1"|"spannung2");
+    var spannung = document.getElementById("spannung");
     spannung.innerHTML = ((Math.random() * 21 + 220).toFixed(1));
-    var stromstaerke = document.getElementById("stromstaerke1"|"stromstaerke2");
-    var max= parseInt(document.getElementById("max1"|"max2").innerHTML);
+    var stromstaerke = document.getElementById("stromstaerke");
+    var max= parseInt(document.getElementById("max").innerHTML);
     max +=5;
     stromstaerke.innerHTML = (Math.random() * max).toFixed(1);
     if (stromstaerke.innerHTML>(max-5)){
