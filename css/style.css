@@ -5,3 +5,8 @@
 nav {
 	display: block;
 }
+
+.textboxclass {
+height: 30px;
+width: 350px;
+}
