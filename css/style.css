@@ -1,3 +1,11 @@
+/* margins for body */
+body {
+		margin-top: 5px;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+	}
+
 /* for index page */
 .active {
 	color: blue;
