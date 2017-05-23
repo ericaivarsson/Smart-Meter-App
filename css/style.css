@@ -1,11 +1,14 @@
+/* for index page */
 .active {
-	color: red;
+	color: blue;
 }
 
+/* for navigation bar */
 nav {
 	display: block;
 }
 
+/* for input field */
 .textboxclass {
 height: 20px;
 width: 225px;
