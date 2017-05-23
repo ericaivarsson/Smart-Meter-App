@@ -5,7 +5,7 @@ function displayText() {
     var nutz = x.elements[0].value;
     var wert = x.elements[1].value;
     var date = new Date().toISOString().slice(0, 10);
-    txt = "</br>" + date + ": " + nutz + "," + wert;
+    txt = "</br>" + date + ":   " + "Nutzerkennung: " + nutz + ";" + "Verbrauchswert: " + wert;
     document.getElementById("output").innerHTML += txt;
 }
 
