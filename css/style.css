@@ -19,7 +19,8 @@ nav {
 /* for tables */
 table {
     border-collapse: collapse;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* for the border of table */
