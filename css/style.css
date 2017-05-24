@@ -16,6 +16,24 @@ nav {
 	display: block;
 }
 
+/* for tables */
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* for the border of table */
+table, th, td {
+    border: 1px solid gray;
+}
+
+/* align content in center of the cells plus adding padding*/
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
 /* for input field */
 .textboxclass {
 height: 24px;
