@@ -18,7 +18,7 @@ nav {
 
 /* for tables */
 table {
-    width="50%";
+    width="65%";
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +32,7 @@ table, th, td {
 /* align content in center of the cells plus adding padding*/
 th, td {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* for input field */
