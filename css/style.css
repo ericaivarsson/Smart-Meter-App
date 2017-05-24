@@ -19,6 +19,7 @@ nav {
 /* for tables */
 table {
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 /* for the border of table */
@@ -26,9 +27,10 @@ table, th, td {
     border: 1px solid gray;
 }
 
-/* align content in center in tables*/
+/* align content in center of the cells plus adding padding*/
 th, td {
     text-align: center;
+    padding: 10px;
 }
 
 /* for input field */
