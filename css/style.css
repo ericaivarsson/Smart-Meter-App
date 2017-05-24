@@ -16,6 +16,21 @@ nav {
 	display: block;
 }
 
+/* for tables */
+table {
+    border-collapse: collapse;
+}
+
+/* for the border of table */
+table, th, td {
+    border: 1px solid gray;
+}
+
+/* align content in center in tables*/
+th, td {
+    text-align: center;
+}
+
 /* for input field */
 .textboxclass {
 height: 24px;
