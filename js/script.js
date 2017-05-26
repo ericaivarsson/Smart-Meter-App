@@ -14,7 +14,7 @@ function displayText() {
 // die eine Warnung ausgibt sobald die Stromspannung das Maximum überschreitet.
 function randomizeStuff(){
     var spannung = document.getElementById("spannung");
-    spannung.innerHTML = ((Math.random() * 21 + 220).toFixed(1));
+    spannung.innerHTML = ((Math.random() * 20 + 220).toFixed(1));
     var stromstaerke = document.getElementById("stromstaerke");
     var max= parseInt(document.getElementById("max").innerHTML);
     max +=5;
